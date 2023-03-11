@@ -7,3 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return "Hello people!"
+
+@app.route('/admin')
+def admin():
+    return "Hello admin!"
